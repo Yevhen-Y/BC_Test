@@ -1,0 +1,27 @@
+@media only screen and (max-width: 800px) {
+     .header-container, .title , .card , .cards, .description, .chat-container {
+         width: 80%;
+    }
+     .description{
+         margin-bottom: 50px;
+    }
+     .description a{
+         width: 100px;
+         padding: 15px 30px;
+    }
+     .chat-container{
+         width: 100%;
+    }
+     .social-container {
+         min-height: 30px;
+    }
+     #shopping div, #night-life div , #food div{
+         overflow-wrap: break-word;
+    }
+}
+ @media only screen and (max-width: 375px) {
+     .header > div:nth-child(2) > a:nth-child(1){
+         width: 100px;
+         padding: 15px 30px;
+    }
+}
